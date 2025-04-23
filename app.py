@@ -69,7 +69,7 @@ if selected == "Home":
         Navigate through the sidebar to access dashboards, alerts, resource management, 
         and community engagement tools designed for crisis managers, responders, and citizens.
     """)
-    st.image("https://via.placeholder.com/1200x400.png?text=DisasterSync+Hero+Image", use_column_width=True)
+    st.image("https://via.placeholder.com/1200x400.png?text=DisasterSync+Hero+Image", use_container_width=True)
 
 elif selected == "Risk Dashboard":
     st.title("Risk Prediction Dashboard")
@@ -130,7 +130,7 @@ elif selected == "Community App":
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Send Alert")
-        st.text_area("Alert Message")
+        st.text_area("Alert当成
         st.selectbox("Severity", ["Low", "Medium", "High"])
         st.button("Send Alert")
     with col2:
