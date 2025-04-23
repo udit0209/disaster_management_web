@@ -130,7 +130,7 @@ elif selected == "Community App":
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Send Alert")
-        st.text_area("Alert当成
+        st.text_area("Alert Message")
         st.selectbox("Severity", ["Low", "Medium", "High"])
         st.button("Send Alert")
     with col2:
