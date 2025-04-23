@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+h1, h2, h3 {
+    color: #1e40af;
+}
+
+.stApp {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e40af;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.footer a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.stButton>button {
+    background-color: #1e40af;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #1e3a8a;
+}
+
+.stTextInput>div>input, .stTextArea>div>textarea {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+}
+
+.stSelectbox>div>div {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
