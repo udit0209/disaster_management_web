@@ -69,7 +69,7 @@ if selected == "Home":
         Navigate through the sidebar to access dashboards, alerts, resource management, 
         and community engagement tools designed for crisis managers, responders, and citizens.
     """)
-    st.image("https://via.placeholder.com/1200x400.png?text=DisasterSync+Hero+Image", use_container_width=True)
+    st.image("https://www.shutterstock.com/shutterstock/photos/2322765445/display_1500/stock-photo-disaster-recovery-concept-person-hand-touching-disaster-recovery-icon-on-virtual-screen-background-2322765445.jpg", use_container_width=True)
 
 elif selected == "Risk Dashboard":
     st.title("Risk Prediction Dashboard")
